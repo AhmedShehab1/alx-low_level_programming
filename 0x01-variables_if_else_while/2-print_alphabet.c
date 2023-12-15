@@ -12,7 +12,7 @@ int main(void)
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
 
-	for (; i < sizeof(alphabet); i++)
+	for (; i < (int)sizeof(alphabet); i++)
 	{
 		printf("%c", alphabet[i]);
 	}
