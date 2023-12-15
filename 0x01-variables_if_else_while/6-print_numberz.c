@@ -9,11 +9,11 @@
  */
 int main(void)
 {
-    int i = 0;
-    char Array[] = {"0123456789"};
-    for ( ; i < (int)sizeof(Array) - 1 ; i++)
+    int i = 48;
+    
+    for ( ; i < 58; i++)
     {
-        putchar(Array[i]);
+        putchar(i);
     }
 
     putchar('\n');
