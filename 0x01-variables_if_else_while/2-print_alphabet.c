@@ -12,13 +12,13 @@ int main(void)
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
 
-	for (; i < (int)sizeof(alphabet); i++)
+	for (; i < (int)sizeof(alphabet)-1; i++)
 	{
-		printf("%c", alphabet[i]);
+		putchar( alphabet[i]);
 	}
 
 	/* Print a newline character for better output readability */
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }
