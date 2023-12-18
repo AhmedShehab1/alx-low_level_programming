@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
-* main - Entry point of the program 
-* Return : Always 0 (Success)
-*/
+ * main - Entry point of the program 
+ *
+ * Return : Always 0 (Success)
+ */
 int main(void)
 {
   int m4 = 48, m3 = 48, m2 = 48, m1 = 48, flag = 0;
