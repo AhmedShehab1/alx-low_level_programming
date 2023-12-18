@@ -27,7 +27,7 @@ int main(void)
                   putchar(' ');
                   putchar(m2);
                   putchar(m1);
-                  if ((m4 == 57)) && (m3 == 56) && (m2 == 57) && (m1 == 57))
+                  if ((m4 == 57) && (m3 == 56) && (m2 == 57) && (m1 == 57))
                     {
                     flag++;
                     break;
