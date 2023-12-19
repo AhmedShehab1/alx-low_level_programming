@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point of the program
+ * print_alphabet - Prints Alphabetical Characters In Order
  *
- * Return: Always 0 (Success)
+ *
  */
 void print_alphabet(void)
 {
@@ -14,4 +14,13 @@ for ( ; i <= 122 ; i++)
 _putchar(i);
 }
 _putchar('\n');
+}
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+return (0);
 }
