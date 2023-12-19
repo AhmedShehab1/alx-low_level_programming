@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-    int i = 48, j = 49, k = 50;
+    int i = 48, j = 49, k = 50, m = 0;
 
     short int y = 9;
     short int w = 8;
@@ -34,7 +34,9 @@ int main(void)
             k -= w; 
             if (w == 0)
             {
-                w = 8;
+                
+                w = 8 - m;
+                m++;
             }
 
         }
