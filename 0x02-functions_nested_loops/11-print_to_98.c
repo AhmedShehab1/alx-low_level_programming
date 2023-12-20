@@ -24,7 +24,7 @@ Division /= 10;
 }
 _putchar('0' + (Division));
 _putchar('0' + ((i / 10) % 10));
-_putchar('0' + (i % 10 ));
+_putchar('0' + (i % 10));
 _putchar(',');
 _putchar(' ');
 continue;
@@ -45,13 +45,13 @@ for (i = n; i <= 98; i++)
 {
 if (i >= 10)
 {
-_putchar('0' + ( i / 10 ));
-_putchar('0' + ( i % 10 ));
+_putchar('0' + (i / 10 ));
+_putchar('0' + (i % 10));
 }
-else if ((i >= 0) && (i <=9))
+else if ((i >= 0) && (i <= 9))
 {
 _putchar('0' + i);
-} 
+}
 if (i < 0)
 {
 if (i <= -100)
