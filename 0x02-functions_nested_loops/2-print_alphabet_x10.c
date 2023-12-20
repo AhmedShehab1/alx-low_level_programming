@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- *
  * print_alphapet - prints alphapetical characters in order
- * 
  * 
 */
 void print_alphabet(void)
@@ -17,8 +15,7 @@ _putchar(i);
 _putchar('\n');
 }
 /**
- *
- *print_alphabet_x10 : prints alphapetical characters in order 10 times 
+ * print_alphabet_x10 : prints alphapetical characters in order 10 times 
  * by calling the previous function each time followed by a new line
  * 
  */
