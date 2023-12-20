@@ -62,7 +62,7 @@ while ( Division >= 10)
 Division /= 10;
 }
 _putchar(45);
-_putchar( '0' + ( (i * -1) ) );
+_putchar( '0' + Division );
 _putchar( '0' + ( ( (i * -1) / 10 ) % 10 ) );
 _putchar( '0' + ( (i * -1) % 10 ) );
 _putchar(',');
