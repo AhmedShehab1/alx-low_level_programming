@@ -2,8 +2,10 @@
 
 /**
  * _islower - Checks Wether a given ascii value corresponds to a lowercase alphabet.
- * returns 1 if so and 0 otherwise.
+ * 
  *@c: Value To Be Figured Out
+ *
+ *Return: 1 If True 0 Otherwise
 */
 int _islower(int c)
 {
