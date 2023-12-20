@@ -3,7 +3,7 @@
 /**
  * _islower - Checks Wether a given ascii value corresponds to a lowercase alphabet.
  * returns 1 if so and 0 otherwise.
- * 
+ *@c: Value To Be Figured Out
 */
 int _islower(int c)
 {
