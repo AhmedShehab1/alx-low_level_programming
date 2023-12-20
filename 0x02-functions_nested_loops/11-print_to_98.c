@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * 
- * 
  * print_to_98 - Prints All Natural Numbers From n to 98
- * 
+ * @n: Number To Count From To 98
  * 
 */
 
