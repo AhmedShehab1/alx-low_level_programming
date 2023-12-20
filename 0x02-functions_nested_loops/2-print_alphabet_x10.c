@@ -2,7 +2,7 @@
 
 /**
  *
- *print_alphapet : prints alphapetical characters in order
+ * print_alphapet - prints alphapetical characters in order
  * 
  * 
 */
