@@ -57,14 +57,14 @@ if ( i < 0 )
 if ( i <= -100)
 {
 i *= -1;
-int Division1 = i / 10;
+int Div = i / 10;
 
-while ( Division1 >= 10)
+while ( Div >= 10)
 {
-Division1 /= 10;
+Div /= 10;
 }
 _putchar(45);
-_putchar( '0' + ( Division1 ) );
+_putchar( '0' + ( Div ) );
 _putchar( '0' + ( ( i / 10 ) % 10 ) );
 _putchar( '0' + ( i % 10 ) );
 _putchar(',');
