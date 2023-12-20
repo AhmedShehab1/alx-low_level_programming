@@ -54,6 +54,21 @@ _putchar( '0' + i);
 } 
 if ( i < 0 )
 {
+if ( i <= -100)
+{
+int Division = i / 10;
+
+while ( Division <= 10)
+{
+Division /= 10;
+}
+_putchar( '0' + ( -Division ) );
+_putchar( '0' + ( ( -i / 10 ) % 10 ) );
+_putchar( '0' + ( -i % 10 ) );
+_putchar(',');
+_putchar(' ');
+continue;
+}
 if ( i <= -10)
 {
 _putchar(45);
