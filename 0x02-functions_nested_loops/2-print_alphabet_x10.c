@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphapet - prints alphapetical characters in order
+ * print_alphabet - prints alphapetical characters in order
  * 
 */
 void print_alphabet(void)
