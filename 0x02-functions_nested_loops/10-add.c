@@ -12,6 +12,6 @@ int add(int a, int b)
 short int Result;
 
 Result = a + b;
-_putchar('\n');
+//_putchar('\n');
 return (Result);
 }
