@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * 
- * 
  * print_sign - Checks Wether A Given Number is Greater Than , Less Than , Or Equal To Zero.
- * Returns 1 and prints + if n is greater than zero
- * Returns 0 and prints 0 if n is zero
- * Returns -1 and prints - if n is less than zero 
+ * @n: Number To Be Tested
+ *
+ *Return: 1 and prints + if n is greater than zero
+ *0 and prints 0 if n is zero
+ *-1 and prints - if n is less than zero
 */
 int print_sign(int n)
 {
