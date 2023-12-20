@@ -1,8 +1,6 @@
 #include "main.h"
 
 /**
- * 
- * 
  * times_table - Prints The 9 Time Tables Starting With 0.
  * 
  * 
