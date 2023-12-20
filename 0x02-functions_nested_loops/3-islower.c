@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * 
  * _islower - Checks Wether a given ascii value corresponds to a lowercase alphabet.
  * returns 1 if so and 0 otherwise.
  * 
