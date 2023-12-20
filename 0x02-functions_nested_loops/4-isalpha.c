@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * 
  * _isalpha - Checks Wether A Provided Ascii Value Corresponds To An Alphabetical Character (Wether Lower or Uppercase).
  * @c: Ascii Value
  * 
