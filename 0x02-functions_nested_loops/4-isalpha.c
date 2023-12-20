@@ -3,9 +3,9 @@
 /**
  * 
  * _isalpha - Checks Wether A Provided Ascii Value Corresponds To An Alphabetical Character (Wether Lower or Uppercase).
- * Returns 1 if so and 0 Otherwise
+ * @c: Ascii Value
  * 
- * 
+ * Return: 1 If True 0 Otherwise
 */
 int _isalpha(int c)
 {
