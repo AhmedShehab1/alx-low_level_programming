@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *print_most_numbers: prints Numerical Values in order except 4 & 2
- * 
- * 
+ *print_most_numbers- prints Numerical Values in order except 4 & 2
+ *
+ *
 */
 void print_most_numbers(void)
 {
@@ -15,7 +15,7 @@ if ((i == 50) || (i == 52))
 {
 continue;
 }
-_putchar(i);    
+_putchar(i);
 }
 _putchar('\n');
 }
