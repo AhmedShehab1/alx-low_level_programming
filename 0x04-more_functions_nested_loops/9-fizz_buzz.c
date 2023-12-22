@@ -3,7 +3,7 @@
 /**
  *main- Prints Values From 1 to 100
  *
- *
+ *Return: 0
 */
 int main(void)
 {
@@ -31,5 +31,5 @@ else
 printf("%d ", i);
 }
 }
-return(0);
+return (0);
 }
