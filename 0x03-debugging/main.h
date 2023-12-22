@@ -27,5 +27,6 @@ void print_square(int size);
 void Fizz_Buzz(void);
 void print_triangle(int size);
 void print_spaceofTriangle(int A_intNoOfSpaces);
+int largest_number(int a, int b, int c);
 #endif
 
