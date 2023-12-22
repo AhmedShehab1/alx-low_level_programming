@@ -8,6 +8,7 @@
 void print_diagonal(int n)
 {
 int i;
+
 for (i = 0; i < n; i++)
 {
 if (n > 0)
@@ -29,7 +30,9 @@ _putchar('\n');
 */
 void print_spaces(int A_intNoOfSpaces)
 {
-for (int i = 0; i < A_intNoOfSpaces; i++)
+int i;
+
+for (i = 0; i < A_intNoOfSpaces; i++)
 {
 _putchar(' ');
 }
