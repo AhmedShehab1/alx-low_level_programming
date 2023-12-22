@@ -1,9 +1,6 @@
 #include "main.h"
-
 /**
- *more_numbers_: prints Numerical Values in order (0-14)
- * 
- * 
+ *more_numbers_- prints Numerical Values in order (0-14)
 */
 void more_numbers_(void)
 {
@@ -28,9 +25,7 @@ break;
 _putchar('\n');
 }
 /**
- *more_numbers: prints Numerical Values in order (0-14)(x10)
- * 
- * 
+ *more_numbers- prints Numerical Values in order (0-14)(x10)
 */
 void more_numbers(void)
 {
@@ -38,6 +33,6 @@ char i = 0;
 
 for ( ; i < 10 ; i++)
 {
-more_numbers_();    
+more_numbers_();
 }
 }
