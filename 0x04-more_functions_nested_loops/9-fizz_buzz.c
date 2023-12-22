@@ -1,13 +1,15 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *Fizz_Buzz: Prints Values From 1 to 100 
+ *Fizz_Buzz- Prints Values From 1 to 100
  *
- * 
+ *
 */
 void Fizz_Buzz(void)
 {
-for (int i = 1; i < 101; i++)
+int i;
+
+for (i = 1; i < 101; i++)
 {
 if (((i % 3) == 0) || ((i % 5) == 0))
 {
