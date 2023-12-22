@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *Fizz_Buzz- Prints Values From 1 to 100
+ *main- Prints Values From 1 to 100
  *
  *
 */
-void Fizz_Buzz(void)
+void main(void)
 {
 int i;
 
