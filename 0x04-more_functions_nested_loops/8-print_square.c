@@ -11,7 +11,9 @@ int Length = size;
 
 while (Length--)
 {
-for (int i = 0; i < size; i++)
+int i;
+
+for (i = 0; i < size; i++)
 {
 _putchar(35);
 }
