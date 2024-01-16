@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * free_grid - Freeing 2-Dimensional Array Dinamically Allocated
  * @grid: 2-Dimensional Array
