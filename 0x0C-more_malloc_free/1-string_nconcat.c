@@ -4,6 +4,7 @@
  * string_nconcat - Concatenates Two Strings
  * @s1: String 1
  * @s2: String 2
+ * @n: Number of Bytes To Be Considered Regarding s2
  *
  * Return: Pointer To Concatenated String 
  * (Newly Allocated Memory) OR NULL If It Fails
