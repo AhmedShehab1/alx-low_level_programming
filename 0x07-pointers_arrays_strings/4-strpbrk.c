@@ -41,6 +41,6 @@ char *_strpbrk(char *s, char *accept)
 	}
 	else
 	{
-		return (&s[Size_s]);
+		return (0);
 	}
 }
