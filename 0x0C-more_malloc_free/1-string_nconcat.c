@@ -18,7 +18,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		Size_s1++;
 	}
 	Copy = 	Size_s1;
-	while (s2[Size_s2] > 0)
+	while (s2[Size_s2] > NULL)
 	{
 		Size_s2++;
 	}
