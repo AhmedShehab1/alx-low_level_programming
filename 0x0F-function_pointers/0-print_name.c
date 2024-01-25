@@ -10,7 +10,7 @@ void print_name(char *name, void (*f)(char *))
 {
 	if (f == 0)
 	{
-		exit (98);
+		exit(98);
 	}
 	f(name);
 }
