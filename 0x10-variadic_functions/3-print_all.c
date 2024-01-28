@@ -30,14 +30,7 @@ void print_all(const char *format, ...)
 			break;
 			case 's':
 			String = va_arg(ptr, char *);
-			if (String == ((void *)0))
-			{
-				printf("(nil)");
-			}
-			else
-			{
-				printf("%s", String);
-			}
+			String == ((void *)0)? printf("(nil)"):printf("%s", String);
 			break;
 			default:
 			flag++;
