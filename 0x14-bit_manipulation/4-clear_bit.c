@@ -10,5 +10,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 {
 	if (n == NULL)
 		return (-1);
-	return (Clr_Bit(*n, index));
+	else
+		Clr_Bit(*n, index);
+	return (1);
 }

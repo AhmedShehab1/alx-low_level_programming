@@ -10,5 +10,7 @@ int set_bit(unsigned long int *n, unsigned int index)
 {
 	if (n == NULL)
 		return (-1);
-	return (Set_Bit(*n, index));
+	else
+		Set_Bit(*n, index);
+	return (1);
 }
