@@ -12,8 +12,10 @@ int create_file(const char *filename, char *text_content)
 {
 	int fd, Written_Bytes, LenOfString = 0;
 
-	while (text_content[LenOfString] > 0)
+	while (text_content != NULL && text_content[LenOfString] > 0)
 	LenOfString++;
+	if (text_content == NULL)
+text_content = malloc(sizeof(char));
 	fd = open(filename, O_CREAT, 0600);
 	if (fd == -1 && errno == EEXIST)
 	{
@@ -21,9 +23,6 @@ int create_file(const char *filename, char *text_content)
 		if (fd == -1)
 		return (fd);
 		truncate(filename, 0);
-		if (text_content == NULL)
-			Written_Bytes = write(fd, "", sizeof(char));
-		else
 		Written_Bytes = write(fd, text_content, LenOfString);
 		if (Written_Bytes == -1)
 		return (-1);
@@ -34,9 +33,6 @@ int create_file(const char *filename, char *text_content)
 	fd = open(filename, O_WRONLY);
 	if (fd == -1)
 	return (fd);
-	if (text_content == NULL)
-	Written_Bytes = write(fd, "", sizeof(char));
-	else
 	Written_Bytes = write(fd, text_content, LenOfString);
 	if (Written_Bytes == -1)
 	return (-1);
