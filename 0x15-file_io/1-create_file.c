@@ -15,7 +15,7 @@ int create_file(const char *filename, char *text_content)
 	while (text_content != NULL && text_content[LenOfString] > 0)
 	LenOfString++;
 	if (text_content == NULL)
-text_content = malloc(sizeof(char));
+		text_content = malloc(sizeof(char));
 	fd = open(filename, O_CREAT, 0600);
 	if (fd == -1 && errno == EEXIST)
 	{
