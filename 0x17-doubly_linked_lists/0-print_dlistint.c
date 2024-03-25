@@ -7,7 +7,7 @@
 */
 size_t print_dlistint(const dlistint_t *h)
 {
-	int No_Of_Elements = 0;
+	int numElements = 0;
 	dlistint_t const *temp = h;
 
 	if (temp != NULL)
@@ -16,24 +16,20 @@ size_t print_dlistint(const dlistint_t *h)
 		{
 			while (temp != NULL)
 			{
-				print("%d\n", temp->n);
-				No_Of_Elements++;
-				temp = temp->next;
-			}
-		}
-		else if (temp->next == NULL)
-		{
-			while (temp != NULL)
-			{
 				printf("%d\n", temp->n);
-				No_Of_Elements++;
-				temp = temp->prev;
+				numElements++;
+				temp = temp->next;
 			}
 		}
 		else
 		{
-			printf("%d\n", temp->n);
+			while (temp != NULL)
+			{
+				printf("%d\n", temp->n);
+				numElements++;
+				temp = temp->prev;
+			}
 		}
 	}
-	return (No_Of_Elements);
+	return (numElements);
 }
