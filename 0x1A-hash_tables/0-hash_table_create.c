@@ -7,10 +7,10 @@
 */
 hash_table_t *hash_table_create(unsigned long int size)
 {
+	int i = 0;
 	hash_table_t *ht = malloc(sizeof(hash_table_t));
 	if (ht == NULL)
 		return (NULL);
-	int i = 0;
 
 	ht->size = size;
 	ht->array = calloc(ht->size, sizeof(hash_node_t *));
