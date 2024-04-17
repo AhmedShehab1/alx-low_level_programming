@@ -20,10 +20,10 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	new = malloc(sizeof(hash_node_t));
 	if (new == NULL)
 	return (Failure);
-	new->key = malloc(sizeof(strlen(key) + 1));
+	new->key = malloc(strlen(key) + 1);
 	if (new->key == NULL)
 	return (Failure);
-	new->value = malloc(sizeof(strlen(value) + 1));
+	new->value = malloc(strlen(value) + 1);
 	if (new->value == NULL)
 	return (Failure);
 	strcpy(new->key, key);
