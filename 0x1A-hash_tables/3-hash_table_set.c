@@ -14,23 +14,37 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	if (ht == NULL)
 	return (Failure);
-
 	index = key_index((const unsigned char *)key, ht->size);
 	head =  ht->array[index];
-	new = malloc(sizeof(hash_node_t));
-	if (new == NULL)
-	return (Failure);
-	new->key = malloc(strlen(key) + 1);
-	if (new->key == NULL)
-	return (Failure);
-	new->value = malloc(strlen(value) + 1);
-	if (new->value == NULL)
-	return (Failure);
-	strcpy(new->key, key);
-	strcpy(new->value, value);
-	new->next = head;
-	head = new;
-	ht->array[index] = head;
-
+	if (head != NULL)
+	{
+		new = malloc(sizeof(hash_node_t));
+		if (new == NULL)
+		return (Failure);
+		new->key = malloc(sizeof(strlen(key) + 1));
+		if (new->key == NULL)
+		return (Failure);
+		new->value = malloc(sizeof(strlen(value) + 1));
+		if (new->value == NULL)
+		return (Failure);
+		strcpy(new->key, key);
+		strcpy(new->value, value);
+		new->next = head;
+		head = new;
+		ht->array[index] = head;
+	}
+	else
+	{	head = malloc(sizeof(hash_node_t));
+		if (head == NULL)
+			return (Failure);
+		head->key = malloc(strlen(key) + 1);
+		if (head->key == NULL)
+			return (Failure);
+		head->value = malloc(strlen(value) + 1);
+		if (head->value == NULL)
+			return (Failure);
+		strcpy(head->key, key);
+		strcpy(head->value, value);
+		ht->array[index] = head; }
 	return (Success);
 }
