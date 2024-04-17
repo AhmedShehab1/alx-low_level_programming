@@ -9,13 +9,13 @@ hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *ht = malloc(sizeof(hash_table_t));
 	if (ht == NULL)
-		return NULL
+		return (NULL);
 	int i = 0;
 
 	ht->size = size;
 	ht->array = calloc(ht->size, sizeof(hash_node_t *));
 	if (ht->array == NULL)
-		return NULL
+		return (NULL);
 	for (; i < (int)size; i++)
 	ht->array[i] = NULL;
 	return (ht);
