@@ -1,9 +1,9 @@
 # variables
-CC := gcc
+CC = gcc
 SRC := $(wildcard *.c)
 OBJ := $(SRC:%.c=%.o)
-NAME := school
-RM := rm -f
+NAME = school
+RM = rm -f
 
 all : ${OBJ} build
 

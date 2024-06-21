@@ -1,9 +1,9 @@
-.PHONY : all
+.PHONY: all
 
-CC := gcc
+CC = gcc
 SRC := $(wildcard *.c)
 OBJ := $(SRC:%.c=%.o)
-NAME := school
+NAME = school
 
 
 all: $(OBJ) build

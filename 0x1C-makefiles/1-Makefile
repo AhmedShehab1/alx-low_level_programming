@@ -2,7 +2,7 @@
 
 all: build
 
-CC := gcc
+CC = gcc
 SRC := $(wildcard *.c)
 
 build:
