@@ -1,0 +1,9 @@
+.PHONY: all
+
+all: build
+
+CC := gcc
+SRC := $(wildcard *.c)
+
+build:
+	${CC} $(SRC) -o school
