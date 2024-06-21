@@ -1,8 +1,8 @@
 .PHONY: all
 
 CC = gcc
-SRC := $(wildcard *.c)
-OBJ := $(SRC:%.c=%.o)
+SRC = $(wildcard *.c)
+OBJ = $(SRC:%.c=%.o)
 NAME = school
 
 
