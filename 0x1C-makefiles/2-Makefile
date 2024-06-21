@@ -1,7 +1,7 @@
 .PHONY: all
 
 CC = gcc
-SRC = $(wildcard *.c)
+SRC = $(shell find . -name '*.c')
 OBJ = $(SRC:%.c=%.o)
 NAME = school
 

@@ -3,7 +3,7 @@
 all: build
 
 CC = gcc
-SRC = $(wildcard *.c)
+SRC = $(shell find . -name '*.c')
 
 build:
 	${CC} $(SRC) -o school
