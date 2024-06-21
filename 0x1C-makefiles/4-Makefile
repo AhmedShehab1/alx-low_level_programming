@@ -1,6 +1,6 @@
 # variables
 CC = gcc
-SRC = $(shell find . -name '*.c')
+SRC = main.c school.c
 OBJ = $(SRC:%.c=%.o)
 NAME = school
 CFLAGS = -Wall -Werror -Wextra -pedantic

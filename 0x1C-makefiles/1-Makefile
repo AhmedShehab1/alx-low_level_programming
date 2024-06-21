@@ -3,7 +3,7 @@
 all: build
 
 CC = gcc
-SRC = $(shell find . -name '*.c')
+SRC = main.c school.c
 
 build:
 	${CC} $(SRC) -o school
